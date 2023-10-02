@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GNK Family Website</title>
+		<link rel="stylesheet" href="css/GNK.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<style>
+			body {
+				margin: 0;
+				background-color: #f0f0f0;
+				font-family: Arial, sans-serif;
+			}
+
+			.container {
+				max-width: 1000px;
+				margin: 0 auto;
+				padding: 20px;
+				box-sizing: border-box;
+				display: grid;
+			}
+			.header {
+				border: none;
+				height: 50px;
+				display: flex;
+				align-items: center;
+				padding: 10px 20px;
+				background-color: #160f29; /* Set the background color for the header */
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			.header-title {
+				color: white;
+				padding: 5px;
+				font-size: 24px;
+			}
+
+			.header-title span {
+				font-size: 14px;
+				vertical-align: middle;
+			}
+
+			.header-links {
+				margin-left: auto;
+			}
+
+			.header-link,
+			.header-button {
+				text-decoration: none;
+				font-weight: bold;
+				padding: 5px 10px;
+				border-radius: 5px;
+				transition: background-color 0.3s;
+				color: white;
+			}
+
+			.header-link:hover,
+			.header-button:hover {
+				background-color: #271656;
+				color: #e9d6ec;
+			}
+
+			.header-button {
+				background-color: #368f8b;
+			}
+
+			.menu-bar {
+				background-color: #2f302b;
+				color: #c48d26;
+				padding: 20px;
+			}
+
+			.navbar {
+				display: flex;
+				align-items: center;
+			}
+
+			.logo img {
+				width: 95px;
+			}
+
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			li {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			li.active a {
+				color: #8d6e97;
+			}
+
+			a {
+				text-decoration: none;
+				color: white;
+			}
+
+			a:hover {
+				color: #4b384c;
+			}
+
+			.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.dropdown-toggle:hover {
+    color: #4b384c;
+}
+
+.sub-menu-1 {
+    display: none;
+    position: absolute;
+    background-color: #2f302b;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown:hover .sub-menu-1 {
+    display: block;
+}
+
+.sub-menu-1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu-1 li {
+    margin: 5px 0;
+}
+
+.sub-menu-1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-menu-1 a:hover {
+    color: #4b384c;
+}
+
+			.rightsidebar,
+			.leftsidebar {
+				background-color: #4b384c;
+				width: 150px;
+				height: 100vh;
+				/* position: fixed; */
+				top: 0;
+			}
+
+			.rightsidebar {
+				right: 0;
+			}
+
+			.leftsidebar {
+				left: 0;
+			}
+
+			footer {
+				background-color: #8d6e97;
+				padding: 20px;
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-title">
+				GRANOCK ENTERPRISE <span> SERVICE</span>
+			</div>
+			<div class="header-links">
+				<a href="./index.html" class="header-link">HOME</a>
+				<div class="dropdown">
+					<a href="#" class="dropdown-toggle">
+						<i class="fa fa-user"></i>About Us
+					</a>
+					<div class="sub-menu-1">
+						<ul>
+							<li><a href="#">Mission</a></li>
+							<li><a href="#">Vision</a></li>
+							<li><a href="#">Team</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="./recipe.html" class="header-button">RECIPES</a>
+			</div>
+		</div>
+		</div>
+		<div class="container">
+			<div class="middlebody">
+				<h1>HOME</h1>
+				<p>
+					We are a team of creative professionals who love to design
+					and create beautiful things. We have been in the field for
+					over 20 years.
+				</p>
+				<h1>About Us</h1>
+				<p>
+					Established in 2004, GNK Prints & Designs has been at the
+					forefront of the graphic design industry, continuously
+					pushing the boundaries of creativity and innovation. We are
+					a team of passionate designers, artists, and craftsmen who
+					thrive on transforming your ideas into visually stunning,
+					tangible products.<br />
+					Our mission is simple - to bring your ideas to life with
+					creativity, precision, and unparalleled quality. We believe
+					that exceptional design is not just about aesthetics; it's
+					about telling your unique story and creating a lasting
+					impression. Our team comprises graphic designers, artists,
+					and marketing experts.
+				</p>
+				<h1>Services</h1>
+				<p>
+					<strong>Screen Printing</strong><br />
+					Our state-of-the-art screen printing facility allows us to
+					produce high-quality prints on various materials, from
+					apparel to promotional products. Whether you need custom
+					t-shirts for an event or branded merchandise for your
+					business, we have the expertise to make it happen.<br />
+					<strong>Digital Printing</strong><br />
+					Harnessing the power of cutting-edge digital printing
+					technology, we can reproduce your designs with unmatched
+					clarity and vibrancy. From posters to banners, our digital
+					printing services are ideal for both small and large-scale
+					projects.<br />
+					<strong>Digital Embroidery</strong><br />
+					Add a touch of sophistication and elegance to your garments
+					and accessories with our digital embroidery services. Our
+					skilled artisans can embroider your logo or design onto
+					clothing, hats, and more, creating a lasting impression of
+					your brand.
+				</p>
+			</div>
+		</div>
+		<footer>
+			Footer bar containing social media and DDT web company symbol
+		</footer>
+	</body>
+</html>
